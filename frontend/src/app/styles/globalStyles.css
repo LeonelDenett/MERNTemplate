@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  /* Header Footer Component */
+  .header, .footer {
+    display: flex;
+    height: 120px;
+    background-color: rgb(16, 63, 121);
+  }
+  .linkHeader {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+  }
+  /* Layout Component */
+  .page{
+    min-height: calc(100vh - 240px);
+    display: flex;
+  }
+  /* Login Page */
+  .login {
+    background-color: rgb(243, 178, 41);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* Register Page */
+  .register {
+    background-color: rgb(243, 178, 41);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* Dashboard Page */
+  .dashboard {
+    background-color: rgb(243, 178, 41);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
